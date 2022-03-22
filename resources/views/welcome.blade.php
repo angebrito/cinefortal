@@ -30,7 +30,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md .bg-primary-500">
+                <div class="title m-b-md bg-primary-500">
                     
                     Laravel
                 </div>
