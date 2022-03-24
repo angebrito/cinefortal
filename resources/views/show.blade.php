@@ -3,16 +3,16 @@
 @section('content')
     <div class="movie-info border-b border-segundary">
         <div class="container mx-auto px-4 py-16 flex">
-            <img src="https://br.web.img3.acsta.net/pictures/19/05/13/23/30/5582450.jpg" alt="euphoria" class="w-96" style="width: 24rem">
+            <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg" alt="red:crescer é uma fera" class="w-96" style="width: 24rem">
             <div class="ml=24">
-                <h2 class="text-xl font-semibold text-white">Euphoria (2019)</h2>
+                <h2 class="text-xl font-semibold text-white">Red:Crescer é Uma Fera</h2>
                 <div class="flex items-center text-white text-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg">
+                    <svg xmlns="http://www.w3.org/2000/svg"  width="100" height="100">
                         <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
                     </svg>
                        <span class="mt-1">84%</span>
                        <span class="mt-1">|</span>
-                       <span>16 de Junho 2019</span>
+                       <span>10 de Maio 2022</span>
                        <span>Drama</span>
                 </div>
                 <p class="text-white mt-8">
@@ -30,14 +30,15 @@
                 </div>
             </div>  
              <div class="mt-12">
-                <butoon class="flex items-center text-black rounded font-semibold px-1
-                py-4 hover:bg-orange transition ease-in-out duration-100">
-                <svg class="w-6 fill-current" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48
-                10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                </svg>
-                <span class="ml-2">Play Trailer</span>
+                <butoon class="btn btn-warning duration-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                    <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                  </svg>
+                <span class="ml-2" >Play Trailer</span>
                 </butoon>
+                
+                
+                    </butoon>
              </div>
         </div>
     </div>
