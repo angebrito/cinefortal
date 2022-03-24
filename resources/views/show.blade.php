@@ -3,8 +3,8 @@
 @section('content')
     <div class="movie-info border-b border-segundary">
         <div class="container mx-auto px-4 py-16 flex">
-            <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg" alt="red:crescer é uma fera" class="w-96" style="width: 24rem">
-            < class="ml=24">
+            <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg" alt="red:crescer é uma fera" class="w-25" style="width: 24rem">
+            <div class="ml=24">
                 <h2 class="text-xl font-semibold text-white">Red:Crescer é Uma Fera</h2>
                 <div class="flex items-center text-white text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg"  width="100" height="100">
