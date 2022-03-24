@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
-<body class="font-sans bg-danger">
+<body class="font-sans bg-dark">
     <span class="border border-secondary"></span>
-            <div class="container mx-auto flex items-center justify-between px-4 py-6">
+            <div class="container-fluid flex border-dark p-1 my-2">
                 <ul class="flex items-center">
                     <li>
                         <svg height="100 " width="300" font-size="25">

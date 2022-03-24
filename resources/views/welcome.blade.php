@@ -14,6 +14,7 @@
 
     </head>
     <body>
+       /*
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -34,7 +35,7 @@
                     
                     Laravel
                 </div>
-
+            */
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
