@@ -56,11 +56,11 @@
 
         <div class="container">
             <div class="row">
-                <div class="col sm-4">
+                <div class="col-md-4">
                 <a href="#">
-                    <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/cbEWkQM0FS9vzv07JFErCk0YKkx.jpg" class="w-25 p-3" class="width 12px" alt="rosalie chiang" class="img-thumbnail">
+                    <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/cbEWkQM0FS9vzv07JFErCk0YKkx.jpg" class="w-15" class="width 12px" alt="rosalie chiang" class="img-thumbnail">
                 </a>  
-                 <div class="col sm">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                       <a href="#" class="text-lg mt-2 text-white">Rosalie Chiang</a>
                      <div class="flex items-center text-white">
                          <span class="mt-1">Meilin 'Mei' Lee</span>
@@ -73,11 +73,11 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col sm-4">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <a href="#">
-                    <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg" class="w-25 p-3" class="width 12px" alt="sandra oh" class="img-thumbnail">
+                    <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg" class="w-15" class="width 12px" alt="sandra oh" class="img-thumbnail">
                 </a>  
-                 <div class="col sm">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                       <a href="#" class="text-lg mt-2 text-white">Sandra Oh</a>
                      <div class="flex items-center text-white">
                          <span class="mt-1">Ming</span>
@@ -90,5 +90,58 @@
         </div>
     </div>
 </div>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="#">
+        <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/cbEWkQM0FS9vzv07JFErCk0YKkx.jpg" class="w-15" alt="rosalie chiang" class="width 12px"></a>
+            <h6><a href="#" class="text-lg mt-2 text-white">Rosalie Chiang</a></h6>
+           <div class="flex items-center text-white">
+               <span class="mt-1">Meilin 'Mei' Lee</span>
+               <span class="mt-1">(Voz)</span>
+              
+               </div> 
+          </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+        <a href="#">
+            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg" class="w-15" alt="Sandra oh" class="width 12px"></a>
+            <h6><a href="#" class="text-lg-left mt-0 text-white">Sandra Oh</a></h6>
+            <div class="flex items-center text-white">
+                <span class="mt-1">Ming</span>
+                <span class="mt-1">(Voz)</span>
+            </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+        <a href="#">
+            <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/e3bkf5MHPzqvSrJALr78pp0DCWt.jpg" class="w-15" alt="Ava Morse" class="width 12px"></a>
+            <h6><a href="#" class="text-lg-left mt-0 text-white">Ava Morse</a></h6>
+            <div class="flex items-center text-white">
+                <span class="mt-1">Miriam</span>
+                <span class="mt-1">(Voz)</span>
+            </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="#">
+          <img src="https://www.themoviedb.org/t/p/w138_and_h175_face/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg" class="w-15" alt="Sandra Oh" class="width 12px"></a>
+              <h6><a href="#" class="text-lg mt-2 text-white">Sandra Oh</a></h6>
+             <div class="flex items-center text-white">
+                 <span class="mt-1">Ming</span>
+                 <span class="mt-1">(Voz)</span>
+                
+                 </div> 
+            </div>
+    </div>
+</div>
+</div>
+
 
 @endsection
