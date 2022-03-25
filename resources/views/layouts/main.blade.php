@@ -15,7 +15,7 @@
             <div class="container-fluid flex border-dark p-1 my-2">
                 <div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-white">
                         <H1>Cinefortal</H1>
                     </div>
 
