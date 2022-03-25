@@ -13,32 +13,42 @@
 <body class="font-sans bg-dark">
     <span class="border border-secondary"></span>
             <div class="container-fluid flex border-dark p-1 my-2">
-                <ul class="flex items-center">
-                    <li>
-                        <svg height="100 " width="300" font-size="25">
-                            <text x="0" y="50" fill="white">Cinefortal</text>
-                          </svg>   
-                    </li>
-                    <li>
-                        <svg height="100" width="300">
-                            <text x="0" y="50" fill="white">Lançamentos</text>
-                          </svg>   
-                    </li>
-                    <li>
-                        <svg height="100" width="300">
-                            <text x="0" y="50" fill="white">Top 10</text>
-                          </svg>   
-                    </li>
-                    
-                </ul>
-                <form class="form-inline my-2 my-lg-5 pl-8-lg">
+                <div class="row">
 
-                    <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
-                
-                </form>
+                    <div class="col-md-6">
+                        <H1>Cinefortal</H1>
+                    </div>
 
-    @yield('content')
+                    <div class="col-md-6">
+                        <div class="row">
+                            
+                            <div class="col-md-2 ml-3">
+                                <button class="btn btn-warning">Lançamentos</button>
+                            </div>
+                            
+                            <div class="col-md-1 ml-3">
+                                <button class="btn btn-warning">Top 10</button>
+                            </div>
+                            
+                            <div class="col-md-6 ml-3">
+                                <div class="row">
+                                    <div class="col-md-8 ml-3">
+                                        <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
+                                    </div>
+                                    <div class="col-md-2 ml-3">
+                                        <button type="submit" class="btn btn-sm btn-success">L</button>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            @yield('content')
+            
     <!-- Bootrstrap -->
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"

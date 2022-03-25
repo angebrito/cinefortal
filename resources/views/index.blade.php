@@ -22,88 +22,39 @@
     <button type="button" class="btn btn-warning">Thriller</button>
     <button type="button" class="btn btn-warning">Guerra</button>
     <button type="button" class="btn btn-warning">Faroeste</button>
-    </div>
+</div>
 
 <p class="font-weight-bold w-50 p-3 text-warning">Populares</p>
 
+<div class="container">
+  <div class="row">
+    
+    {{--  @foreach ($collection as $item)
+        --}}
+        
+    
+    <div class="col-md-3 p-0 mb-3 bg-warning" >
+      <div class="row">
+        <div class="col-md-12">
+          <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg" width="275" height="150" class="rounded" alt="red:crescer é uma fera">
+        </div>
+        <div class="col-md-12 pl-3 pr-3 pt-3 pb-3">
+          <a href="#" class="text-xl-left text-white">Red:Crescer é Uma Fera</a>
+          <button type="button" class="btn btn-sm btn-success float-right"><span class="text-xl text-white"><span>*</span>8,4</span></button>
+        </div>
+        <div class="col-md-12">
+          <button class="btn btn-sm btn-primary rounded-2">VER</button>
+        </div>
 
-<div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/725WE0Qb1BbUF7aGvjiQqzzffpg.jpg" class="rounded float-left" alt="red:crescer é uma fera">
-        <dd class="col-sm-3">
-            <a href="#" class="text-lg-left mt-0 text-white">Red:Crescer é Uma Fera</a>
-           <div class="flex items-center text-white">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
-            </svg>
-               <span class="mt-1">84%</span>
-               <span class="mt-1">|</span>
-               <span>16 de Junho 2019</span>
-               <span>Drama</span>
-            </div>
-        </dd>
       </div>
     </div>
-</div>
 
-<div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg" class="rounded float-left" alt="homem-aranha sem volta para casa">
-        <dd class="col-sm-3">
-            <a href="#" class="text-lg-left mt-0 text-white">Homem-Aranha: Sem Volta Para Casa</a>
-           <div class="flex items-center text-white">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
-            </svg>
-               <span class="mt-1">84%</span>
-               <span class="mt-1">|</span>
-               <span>16 de Junho 2019</span>
-               <span>Drama</span>
-            </div>
-        </dd>
-      </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/11MJy6lkt7yTEIowEPIkaK4B7lM.jpg" class="rounded float-left" alt="o projeto adam">
-        <dd class="col-sm-2">
-            <a href="#" class="text-lg-left mt-0 text-white">O Projeto Adam</a>
-           <div class="flex items-center text-white">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
-            </svg>
-               <span class="mt-1">84%</span>
-               <span class="mt-1">|</span>
-               <span>16 de Junho 2019</span>
-               <span>Drama</span>
-            </div>
-        </dd>
-      </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qgW5iIe6QUn170omG6tdGS4BB9U.jpg" class="rounded float-left" alt="agente das sombras">
-        <dd class="col-sm-3">
-            <a href="#" class="text-lg-left mt-0 text-white">Agente das Sombras</a>
-           <div class="flex items-center text-white">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
-            </svg>
-               <span class="mt-1">84%</span>
-               <span class="mt-1">|</span>
-               <span>16 de Junho 2019</span>
-               <span>Drama</span>
-            </div>
-        </dd>
-      </div>
-    </div>
-</div>
+    {{--  @endforeach
+        --}}
+
+      
+    
+  </div>
 </div> 
 @endsection
 
