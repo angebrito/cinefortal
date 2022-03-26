@@ -17,6 +17,7 @@
 
                     <div class="col-md-6 text-white">
                         <H1>Cinefortal</H1>
+                        
                     </div>
 
                     <div class="col-md-6">
@@ -35,8 +36,12 @@
                                     <div class="col-md-8 ml-3">
                                         <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search">
                                     </div>
-                                    <div class="col-md-2 ml-3">
-                                        <button type="submit" class="btn btn-sm btn-success">L</button>
+                                    <div class="col-md-2 ml">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                              </svg>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +63,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
         $.ajax({
-            url: "https://rickandmortyapi.com/api/character",
+            url: "",
             data: "",
             method: "GET",
             success: (resposta) => { console.log(resposta) },

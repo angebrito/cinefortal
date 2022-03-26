@@ -10,11 +10,11 @@
                 <div class="col-md-6">
                     <div class="row"
            <div class="ml=24">
-                <h2 class="text-xl font-semibold text-white">Red:Crescer é Uma Fera</h2>
+                <h2 class="text-xl font-semibold text-white">"Red:Crescer é Uma Fera"</h2>
                 <div class="flex items-center text-white text-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg"  width="100" height="100">
-                        <polygon points="50,0 19.49,100 100,37.93 0,37.93 80.51,100"  fill="yellow"/>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="yellow" class="bi bi-star-fill" viewBox="0 0 20 20">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
                        <span class="mt-1">8,4</span>
                        <span class="mt-1">|</span>
                        <span>10 de Maio 2022</span>
