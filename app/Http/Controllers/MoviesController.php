@@ -18,8 +18,8 @@ class MoviesController extends Controller
     public function index()
     {
 
-       $popularMovies = Http::withToken(config('services.tmdb.token'))
-       ->get('https://api.themoviedb.org/3/movie/popular?api_key=b6ecddaa79a4e5093383e2da2c8e1d66')
+       $popularMovies = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
+       ->get('https://api.themoviedb.org/3/movie/popular')
        ->json()['results'];
 
        dump($popularMovies);
@@ -58,9 +58,9 @@ class MoviesController extends Controller
      */
     public function show($id)
     {
-        $movie = Http::withToken(config('services.tmdb.token'))
-       ->get('https://api.themoviedb.org/3/movie/popular?api_key=b6ecddaa79a4e5093383e2da2c8e1d66')
-       ->json()['results'];
+        $movie = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
+       ->get('https://api.themoviedb.org/3/movie/' .$id.'?append_to_response=credits,videos,images')
+       ->json();
 
        dump($movie);
        

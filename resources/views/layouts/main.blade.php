@@ -24,7 +24,7 @@
                         <div class="row">
                             
                             <div class="col-md-2 ml-3">
-                                <button class="btn btn-warning">Lançamentos</button>
+                                 <button class="btn btn-warning">Lançamentos</button>
                             </div>
                             
                             <div class="col-md-1 ml-3">
