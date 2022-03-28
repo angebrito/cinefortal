@@ -3,6 +3,15 @@
 @section('content')
 
 <div class="form-group">
+  {{--  
+    - passar param p cá
+    - criar a rota em web.php
+    - criar a funcao na controller que retorna a view que mostra os filmes por categoria
+  --}}
+    {{--  @foreach ($movie['genres'] as $genre) 
+      <a href="<?php echo "/ROTA/".$movie['id']" class="btn btn-warning">{{ $genre['name'] }}</a>
+    @endforeach  --}}
+
     <button type="button" class="btn btn-warning">Ação</button>
     <button type="button" class="btn btn-warning">Aventura</button>
     <button type="button" class="btn btn-warning">Animação</button>
@@ -61,4 +70,3 @@
   </div>
 </div> 
 @endsection
-
