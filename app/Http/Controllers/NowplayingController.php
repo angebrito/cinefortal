@@ -5,25 +5,32 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
-
-class MoviesController extends Controller
-
+class NowplayingController extends Controller
 {
-    
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function nowplaying()
     {
-
-       $popularMovies = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
-       ->get('https://api.themoviedb.org/3/movie/popular')
+       $nowPlayingMovies = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
+       ->get('https://api.themoviedb.org/3/movie/now_playing')
        ->json()['results'];
-       
-        return view('index', [
-            'popularMovies' => $popularMovies,
+
+        return view('nowplaying', [
+            'nowPlayingMovies' => $nowPlayingMovies,
+        ]);
+    }
+
+    public function top()
+    {
+       $topMovies = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
+       ->get('https://api.themoviedb.org/3/movie/top_rated')
+       ->json()['results'];
+
+        return view('top', [
+            'topMovies' => $topMovies,
         ]);
     }
 
@@ -56,13 +63,7 @@ class MoviesController extends Controller
      */
     public function show($id)
     {
-        $movie = Http::withToken('eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNmVjZGRhYTc5YTRlNTA5MzM4M2UyZGEyYzhlMWQ2NiIsInN1YiI6IjYyM2I2YzMzNTgzNjFiMDA0YWEyOTA5NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.9dwDtS1ICPMSpw_ijwNrskmUyK-uqOXJ9U5B-AGMn-4')
-       ->get('https://api.themoviedb.org/3/movie/' .$id.'?append_to_response=credits,videos,images')
-       ->json();
-       
-        return view('show', [
-            'movie' => $movie,
-        ]);
+        //
     }
 
     /**
