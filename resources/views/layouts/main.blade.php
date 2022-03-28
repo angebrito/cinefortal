@@ -16,7 +16,7 @@
                 <div class="row">
 
                     <div class="col-md-6 text-white">
-                        <H1>Cinefortal</H1>
+                        <a href="/"><H1>Cinefortal</H1>
                         
                     </div>
 
@@ -24,11 +24,11 @@
                         <div class="row">
                             
                             <div class="col-md-2 ml-3">
-                                 <button class="btn btn-warning">Lançamentos</button>
+                                <a href="<?php echo "/nowplaying/".$movie['id']; ?>"><button class="btn btn-warning">Lançamentos</button></a>
                             </div>
                             
                             <div class="col-md-1 ml-3">
-                                <button class="btn btn-warning">Top 10</button>
+                                <a href="<?php echo "/top/".$movie['id']; ?>"><button class="btn btn-warning">Top 10</button></a>
                             </div>
                             
                             <div class="col-md-6 ml-3">
@@ -61,14 +61,6 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-        $.ajax({
-            url: "",
-            data: "",
-            method: "GET",
-            success: (resposta) => { console.log(resposta) },
-            error: (error) => { console.log("Erro: "+error) }
-        })
-    </script>
+   
 </body>
 </html>
