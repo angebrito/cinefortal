@@ -1,4 +1,4 @@
-Projeto criado na versão 7.85 do PHP
+Projeto criado na versão 8.1.4 do PHP
 
 É necessário instalar o composer
 
