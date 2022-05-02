@@ -1,3 +1,7 @@
+Projeto criado na versão 7.85 do PHP
+
+É necessário instalar o composer
+
 No diretório do projeto, você pode executar:
 
 php artisan serve
